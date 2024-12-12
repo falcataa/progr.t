@@ -1,0 +1,81 @@
+/* Основные стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Стили для хедера */
+.header {
+    background: url('photo/зян3.jpg') no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.header .scroll-button {
+    color: white;
+    background: #ff6347;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.header .scroll-button:hover {
+    background: #ff4500;
+}
+
+/* Секции */
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.about, .services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about img, .service-cards .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Карточки услуг */
+.service-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #ff6347;
+}
+
+/* Подвал */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
